@@ -1,0 +1,1501 @@
+@font-face {
+    font-family: 'SFUTradeGothic';
+    src: url('http://khampha.vn/css/fonts/SFUTradeGothicBoldCondensedTwenty.eot');
+    src: local('☺'), url('http://khampha.vn/css/fonts/SFUTradeGothicBoldCondensedTwenty.woff') format('woff'), url('http://khampha.vn/css/fonts/SFUTradeGothicBoldCondensedTwenty.ttf') format('truetype'), url('http://khampha.vn/css/fonts/SFUTradeGothicBoldCondensedTwenty.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.readMore-link {
+    float: right;
+}
+.back-page, .top-page {
+    height: 50%;
+    line-height: 50%;
+}
+.footer-menu2 .fl-Right a {
+    padding: 0px 8px 5px 25px;
+    height: 38px;
+    line-height: 38px;
+}
+p i {
+    font-size: 20px
+}
+/*Start trang trong*/
+.bannerBox-L {
+    background-color: #ddd;
+}
+.chuyenmuc-box {
+    width: 665px;
+}
+.formContact {
+    border: 1px solid #f5f5f5;
+    margin: 10px;
+}
+.images-zoom {
+
+}
+.media-player {
+    width: 100% !important;
+}
+.neo-footer {
+    display: none;
+}
+@media only screen and (min-width: 1025px) {
+    .colRight .listNews .btnXemthem {
+        display: none;
+    }
+}
+@media only screen and (min-width : 600px) and (max-width : 1024px) {
+    .menuMain ul li a {
+        padding: 13px 8px;
+        line-height: 20px;
+    }
+    .nav a.sub-a {
+        line-height: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .colRight .listNews .btnXemthem {
+        display: none;
+    }
+    .colRight {
+        width: 290px;
+        margin-left: 10px;
+    }
+    .colLeft {
+        margin-left: 10px;
+    }
+    .footer {
+        margin: 10px;
+    }
+    .nav a.sub-a, .menuMain ul li a {
+        font-size: 12px !important;
+    }
+    .banner-mobile {
+        display: none;
+    }
+    .banner-ipad {
+        display: block;
+    }
+   /* .menuTop, .container, .header {
+        width: 100%;
+        }*/
+    }
+    /*End trang trong*/
+    @media only screen and (min-width: 768px) {
+        .menu-top-mobile {
+            display: none;
+        }
+        .header {
+            background-image: url(http://khampha.vn/images/2014/logo.png);
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+        .read-more {
+            display: none;
+        }
+        body .neo-footer {
+            display: none !important;
+        }
+        .main-contentpc {
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
+        .clip-hot-mobile {
+            display: none;
+        }
+        .boxGrey-bg .lst-normal {
+            background: none;
+        }
+        .menu-div-container {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 480px) {
+        .lich-gio-am, .lich-ngaythang, .lich-loiHayYDep, .gio-hoang-dao {
+            line-height: 150%;
+        }
+        .lich-duong, .lich-am {
+            height: 200px;
+        }
+        .menu-div-container .menuRight {
+            width: 320px;
+        }
+        .menu-div-container .mnRight-closeBtn {
+            left: 320px;
+        }
+        .menu-div-container ul.mnRight li a {
+            font-size: 18px;
+        }
+    }
+    @media only screen and (min-width: 568px) {
+        .lich-duong, .lich-am {
+            height: 220px;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+    /* .bannerBox-L {
+        display: none;
+        } */
+        .share-left table tr td:last-child {
+            display: none;
+        }
+        .m-clear{
+            clear: both;
+        }
+        .text-conent table {
+            width: 100% !important;
+            max-width: 100%;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .pollContainer {
+            width: 100%;
+        }
+        .news-title-red-B a, .news-title-red-B a:hover {
+            font-size: 16px;
+        }
+        .listNews ul li a, .news-title-s {
+            font-size: 14px;
+        }
+        .boxBorGrey-bg {
+            border:0;
+            padding: 0;
+            /* background: #fff; */
+            margin-top: 10px;
+        }
+        .boxBorGrey-bg a, .boxBorGrey-bg a img {
+            display: block;
+        }
+        .news-title-red-B {
+            margin-top: 10px;
+            display: inline-block;
+            width: 100%;
+        }
+        .bkNews-tt-sapo {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .btnXemthem {
+            color: #464646;
+        }
+    /* .blockBig span.greyTitle, .boxMXH {
+        display: none;
+        }*/
+        .news-title-s {
+            font-weight: 400;
+        }
+        .text-conent img.news-image {
+            width: 100%;
+            height: auto;
+        }
+        .footer-menu2 a {
+            margin: 0;
+        }
+        .logo {
+            width: 100%;
+            display: -moz-box;
+            -moz-box-pack: center;
+            -moz-box-align: center;
+            display: -webkit-box;
+            -webkit-box-pack: center;
+            -webkit-box-align: center;
+            display: box;
+            box-pack: center;
+            box-align: center;
+            height: 56px;
+        }
+        .logo a {
+            width: 146px;
+            height: 56px;
+            display: block;
+            background: url(http://khampha.vn/images/2014/logo.png) no-repeat center center;
+            margin: 0 auto;
+            text-align: center;
+            display: inline-block;
+            line-height: 56px;
+            background-size: 146px;
+        }
+        .mnDanhMuc {
+            position: relative;
+        }
+        .mnDanhMuc a {
+            width: 24px;
+            height: 18px;
+            display: block;
+            background: url(//image.eva.vn/images/m2017/meva-icon-menu-2017.png) no-repeat;
+            position: absolute;
+            left: 18px;
+            top: 18px;
+            z-index: 100;
+        }
+        .banner {
+            width: 100%;
+            /*height: 160px;*/
+            background-color: #eee;
+        }
+        .banner-ipad {
+            display: none;
+        }
+        .banner-mobile {
+            display: block;
+            overflow-x: hidden;
+        }
+        .footer-menu1 ul.groupItem > li {
+            width: 50%;
+            float: left;
+            padding: 0;
+            margin: 5px 0;
+        }
+        .content {
+            padding: 0;
+        }
+        .news-title-red a {
+            line-height: 1.3;
+        }
+        .imgFloat {
+            margin-right: 4%;
+        }
+        .news-sapo {
+            margin-bottom: 10px;
+        }
+        .menu-top-mobile ul {
+            height: 40px;
+            line-height: 40px;
+        }
+        .padL80{
+            width: 56%;
+            float: right;
+            padding-left: 0;
+            display: none;
+        }
+        .bkNewsRight .news-title {
+            width: 56%;
+            float: right;
+        }
+        .menu-top-mobile {
+            height: 40px;
+            line-height: 40px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul, li {
+            list-style: none;
+        }
+        .menu-top-mobile ul li {
+            display: inline-block;
+        }
+        .menu-top-mobile ul li a {
+            font-size: 12px;
+            display: inline-block;
+            padding: 0 3px;
+        }
+        .menu-top-mobile ul li a.mnHome {
+            width: 20px;
+            height: 19px;
+            background: url(//image.eva.vn/images/m2017/meva-icon-home-2017.png);
+            background-size: 20px;
+            padding: 0;
+        }
+        .color-title {
+            color: #000;
+        }
+        .text-transform {
+            text-transform: uppercase;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .dateTime, .search, .mxh-home-top, .menuTop {
+            display: none;
+        }
+        .colLeft, .colRight {
+            width: 100%;
+            margin: 0;
+        }
+        .blockRightJob {
+            display: none;
+        }
+        .bkNewsRight {
+            float: none;
+            clear: both;
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .boxDoiR, .bkNewsLeft, .boxDoiL {
+            width: 100%;
+            float: none;
+            clear: both;
+            margin: 10px 0;
+        }
+        .header, .boxDoi-c {
+            width: 100%;
+        }
+        .bkNewsImg {
+            width: 100%;
+            height: auto;
+        }
+        .bkNewsTitle {
+            width: auto;
+            background: url(http://khampha.vn/images/2014/bkNewsTitle.png) repeat;
+        }
+        .bkNewsSubItem-trangtrong .imgNews-medium {
+            margin-bottom: 20px;
+        }
+        .imgFloat a img, .imgNews-medium {
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+        .bkNewsSubItem.fl-Left {
+            width: 48%;
+            float: left;
+        }
+        .bkNewsSubItem.fl-Right {
+            width: 48%;
+            float: right;
+        }
+        .bkNewsRight .boxBorGrey {
+            border: 0;
+            padding: 10px 0;
+        }
+        .boxBorGrey .imgNews-small, .boxDoiItem .imgNews-medium{
+            width: 40%;
+            height: auto;
+        }
+        * {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+        .news-title a, .news-sapo {
+            line-height: 1.3;
+        }
+        .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 0px -1048px no-repeat;
+        }
+        .boxBorGrey-bg .thethaoLeft .news-title,
+        .boxBorGrey-bg .thethaoLeft .news-sapo {
+            padding: 0 5px 0 10px;
+        }
+        .boxBorGrey-bg .thethaoLeft .xem-tiep {
+            padding: 0 10px 10px;
+        }
+        .thethaoLeft {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .thethaoLeft a img {
+            width: 100%;
+            height: auto;
+        }
+        .thethaoRight, .boxDoiR-2 {
+            width: 100%;
+            float: none;
+            margin-right: 0;
+        }
+        .thethaoRight {
+            padding: 0 10px;
+        }
+        .xem-tiep a {
+            background: url(http://khampha.vn/images/2014/sprites.png) right -1175px no-repeat;
+        }
+        .blockBig {
+            margin: 10px 0;
+            clear: both;
+        }
+        .boxDoiL .imgNews-medium {
+            width: 40%;
+            height: auto;
+        }
+        .blockMyself .boxBorGrey {
+            padding: 0 10px 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(241, 66, 66);
+        } 
+        .boxDoiR-2 {
+            margin-left: 0;
+            display: inline-block;
+            width: 100%;
+        }
+        .boxClip {
+            height: auto;
+        }
+        .video-home {
+            width: 100%;
+            height: auto;
+        }
+        .video-home .zplayer {
+            max-width: 100%;
+        }
+        .videoList {
+            width: 100%;
+            float: none;
+            padding: 0;
+        }
+        .videoListItem {
+            width: 100%;
+            clear: both;
+        }
+        .videoListItem a:first-child {
+            float: left;
+            width: 40%;
+            margin-right: 4%;
+        }
+        .videoListItem img {
+            width: 100%;
+            height: inherit;
+        }
+        .footer-menu2 .fl-Left {
+            display: none;
+        }
+    /*.fl-Right {
+        float: none;
+        }*/
+        .btn-gopY {
+            background: url(http://khampha.vn/images/2014/sprites.png) no-repeat 0px -400px;
+        }
+        .btn-lenDauTrang {
+            background: url(http://khampha.vn/images/2014/sprites.png) no-repeat 0px -482px;
+        }
+        .thethaoRight .imgNews-small {
+            width: 40%;
+            height: inherit;
+        }
+        .readMore .news-sapo {
+            display: none;
+        }
+        .boxClip {
+            background: #eaeaec url(http://khampha.vn/images/2014/clip-bg.png) repeat-x;
+        }
+        .blockMyself .redTitle-noLine a{
+            color: #fff;
+            background: url(http://khampha.vn/images/2014/bg-toi.png) right;
+            width: 45px;
+            height: 28px;
+            display: inline-block;
+            line-height: 28px;
+            padding-left: 5px;
+        }
+        .readMore {
+            display: none;
+        }
+        .videoList::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        }
+        .videoList::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 8px;
+        }
+        .videoList::-webkit-scrollbar {
+            width: 8px;
+        }
+        .read-more a {
+            color: #464646;
+        }
+        .read-more {
+            margin-top: 10px;
+            background-color: #E4E4E4;
+            padding: 8px 16px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .neo-footer {
+            position: fixed !important;
+            bottom: 0;
+            width: 100%;
+            z-index: 999999 !important;
+        }
+        .neo-footer-inner {
+            height: 56px;
+            line-height: 56px;
+            background-color: #F2F2F2;
+        }
+        .left-neo-footer {
+            float: left;
+            width: 50%;
+        }
+        .right-neo-footer {
+            float: right;
+            width: 50%;
+            height: 56px;
+            line-height: 56px;
+            vertical-align: middle;
+            position: relative;
+        }
+        .right-neo-footer:before {
+            position: absolute;
+            right: 0px;
+            top: 5px;
+            background: url(images/back-page.png) no-repeat;
+            width: 16px;
+            height: 46px;
+            content: "";
+        }
+        .right-neo-footer-inner {
+            padding-right: 20px;
+            height: 56px;
+            line-height: 56px;
+        }
+        .left-neo-footer a {
+            width: 146px;
+            height: 56px;
+            display: block;
+            background: url(http://khampha.vn/images/2014/logo.png) no-repeat center center;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 56px;
+            background-size: 146px;
+            float: left;
+        }
+        .top-page a {
+            font-size: 16px;
+            color: #F14227;
+            font-weight: 700;
+            line-height: 28px;
+        }
+        .back-page span {
+            color: #7d7d7d;
+            line-height: 28px;
+        }
+        /*Start trang trong*/
+        .colLeft-trangtrong {
+            width: 100%;
+        }
+        .bkNews-tt-cnt {
+            padding: 10px 0;
+            float: none;
+            width: 100%;
+            clear: both;
+            background: #fff;
+        }
+        .colLeft-trangtrong .bkNews-tt-title, .colLeft-trangtrong .bkNews-tt-sapo {
+            color: #000;
+        }
+        .boxBorGrey {
+            border: 0;
+            padding: 0;
+        }
+        .bkNewsSubItem-trangtrong .imgNews-medium, .colLeft-trangtrong .boxDon-c .imgNews-medium, .boxBorGrey-trungtam .imgNews-small{
+            width: 40%;
+            height: auto;
+            float: left;
+        }
+        .bkNewsSubItem-trangtrong {
+            width: 100%;
+            padding: 0;
+        }
+        .bkNewsSubItem-trangtrong .news-title, .colLeft-trangtrong .boxDon-c .news-title, .boxBorGrey-trungtam .news-title {
+            width: 56%;
+            float: right;
+        }
+        .boxDon-c .news-sapo, .colCenter .news-sapo {
+            display: none;
+        }
+        .colCenter, .bannerBox-R {
+            width: 100%;
+            margin: 0;
+        }
+        .bannerBox-L, .bannerBox-L .m_banner_show {
+            width: 100% !important;
+        }
+        .bannerBox-L {
+            display: none;
+        }
+        .bannerBox-R {
+            margin-top: 10px;
+        }
+        .boxTrungTam-t {
+            background-color: #fff;
+            padding: 0 0 5px 0;
+        }
+        .boxBorGrey-trungtam {
+            padding: 10px 0 0 0;
+            border: 0;
+            height: auto;
+        }
+        .chuyenmuc-box {
+            width: 100%;
+        }
+        .bkNewsSubItem-bottom {
+            width: 48%;
+            padding: 0;
+        }
+        .bkNewsSubItem-bottom:nth-child(odd) {
+            float: left;
+            clear: both;
+        }
+        .bkNewsSubItem-bottom:nth-child(even) {
+            float: right;
+        }
+        .bkNewsSubItem-bottom-line {
+            display: none;
+        }
+        .chuyenmuc-box ul.boxDon-moreNews {
+            margin-left: -7px;
+        }
+        .bkNewsSubItem-bottom.mobileSingleLink {
+            width: 100%;
+        }
+        .bkNewsSubItem-bottom.mobileSingleLink:nth-of-type(4) {
+            margin-bottom: -15px;
+        }
+        .bkNewsSubItem-bottom.mobileSingleLink .imgFloat {
+            display: none;
+        }
+        .bkNewsSubItem-bottom.mobileSingleLink .news-title {
+            display: block;
+            padding: 5px 0 5px 15px;
+            background: url(http://khampha.vn/images/2014/sprites.png) 0px -1048px no-repeat;
+        }
+        .bkNewsSubItem-bottom.mobileSingleLink .news-title a{
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .blockBig .boxDoiL, .blockBig .boxDoiR {
+            padding: 0;
+        }
+        .bkNews-trangtrong .imgNews-big {
+            width: 100%;
+            height: auto;
+        }
+        .copyright {
+            padding: 10px;
+        }
+        .boxGrey-bg {
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+        .boxGrey-bg .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 8px -1053px no-repeat;
+            padding: 0 20px;
+        }
+        .clip-hot-pc {
+            display: none;
+        }
+        .boxTrungTam-c {
+            height: auto;
+        }
+        /*End trang trong*/
+
+        /*Start menu*/
+        .header {
+            position: relative;
+        }
+        .menu-mobile {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .menuRight {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 200;
+            background: #fff;
+            border-left: #ddd solid 1px;
+            width: 270px;
+        }
+        .searchBox {
+            padding: 10px;
+            background-color: #666;
+        }
+        .searchTextBox {
+            width: 100%;
+            background: #eee;
+            border: 0;
+            padding: 10px 0px 10px 10px;
+            font-size: 16px;
+            color: #666;
+            float: left;
+            border: #c2c2c2 solid 1px;
+        }
+        .searchBtn {
+            display: block;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-position: 10px -980px;
+            float: right;
+            background: url(//image.eva.vn/images/m2017/icon-search.png) no-repeat center;
+            background-size: 25px;
+            cursor: pointer;
+        }
+        ul.mnRight {
+            overflow-x: hidden;
+            height: 500px;
+        }
+        ul.mnRight li {
+            display: block;
+            list-style: none;
+            position: relative;
+        }
+        ul.mnRight li a.home {
+            background: url(//image.eva.vn/images/m2017/meva-icon-home-2017.png);
+            padding-left: 40px;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: 15px 10px;
+        }
+        ul.mnRight li a {
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 10px 10px 10px 25px;
+            color: #fff;
+            display: block;
+            background: #5f6266 url(http://khampha.vn/images/2014/menuDot.gif) 13px 17px no-repeat;
+            border-bottom: #424447 solid 1px;
+            border-top: #8f9194 solid 1px;
+        }
+        .mnRight-closeBtn {
+            position: absolute;
+            top: 10px;
+            background: #fff;
+            display: block;
+            z-index: 2000;
+        }
+        .mnRight-closeBtn {
+            left: 270px;
+        }
+        .mnRight-closeBtn a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: #666;
+            background-image: url(http://khampha.vn/images/2014/sprites-24.png);
+            background-position: 12px -1412px;
+            background-repeat: no-repeat;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .clearfix {
+            clear: both;
+        }
+        .mnRight-close {
+            background: #3d3d3d;
+            padding: 12px;
+            font-size: 16px;
+            color: #fff;
+            display: block;
+            text-align: center;
+        }
+        .mnRight-close span.icon {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background: url(http://khampha.vn/images/2014/sprites.png) no-repeat 0 -1423px;
+            vertical-align: middle;
+            padding-left: 5px;
+        }
+        /*End menu*/
+        .mg-bailienquan .mg-bailienquan {
+            width: 100% !important;
+            margin: 0;
+            padding: 0px !important;
+        }
+    }
+    @media only screen and (min-width: 667px) and (max-width: 767px) {
+        .baiviet-title {
+            font-size: 34px;
+        }
+        .redTitle h2, .redTitle h3, .redTitle h1, .redTitle a, .redTitle, .redTitle-noLine h2, .redTitle-noLine h3, .redTitle-noLine h1, .redTitle-noLine a, .blackTitle h2, .blackTitle h3, .blackTitle h1, .blackTitle a {
+            font-size: 28px;
+        }
+        .bkNewsTitle {
+            font-size: 26px;
+        }
+        .news-title a, .news-title-red a, .vChonLoc-title a, .top-page a, .bkNews-tt-title, .baiviet-sapo, .text-conent, .text-conent *, .news-title-red-B a {
+            font-size: 24px;
+        }
+        .boxDoi-moreNews ul li a, ul.boxDon-moreNews li a, .videoListItem a.title, .thethaoRight .news-title a, .fl-Right a, .listNews ul li a, .news-title-s, 
+        .news-title-red-B a, .baiviet-bailienquan a, .pollTop, .pollAnswer *, .bkNewsSubItem-bottom.mobileSingleLink .news-title a {
+            font-size: 22px;
+        }
+        * {
+            font-size: 22px;
+        }
+        .footer-menu1 ul.groupItem li a b, .footer-menu1 ul.groupItem li ul li a, .menu-top-mobile ul li a, .tag-txt-FB, .baiviet-ngay, .nguontin {
+            font-size: 20px;
+        }
+        .boxGrey-bg .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 8px -1048px no-repeat;
+        }
+        .pollContent .pollAnswer {
+            width: 200px !important;
+            padding-right: 10px;
+        }
+        .pollContent .textbox {
+            width: 100% !important;
+        }
+        .pollContainer {
+            border: 0;
+        }
+        .pollContainer {
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    @media only screen and (min-width: 568px) and (max-width: 666px) {
+        .baiviet-title {
+            font-size: 32px;
+        }
+        .redTitle h2, .redTitle h3, .redTitle h1, .redTitle a, .redTitle, .redTitle-noLine h2, .redTitle-noLine h3, .redTitle-noLine h1, .redTitle-noLine a, .blackTitle h2, .blackTitle h3, .blackTitle h1, .blackTitle a {
+            font-size: 26px;
+        }
+        .bkNewsTitle {
+            font-size: 24px;
+        }
+        .news-title a, .news-title-red a, .vChonLoc-title a, .top-page a, .bkNews-tt-title, .baiviet-sapo, .text-conent, .text-conent *, .news-title-red-B a {
+            font-size: 22px;
+        }
+        .boxDoi-moreNews ul li a, ul.boxDon-moreNews li a, .videoListItem a.title, .thethaoRight .news-title a, .fl-Right a, .listNews ul li a, .news-title-s, 
+        .news-title-red-B a, .baiviet-bailienquan a, .pollTop, .pollAnswer *, .bkNewsSubItem-bottom.mobileSingleLink .news-title a {
+            font-size: 20px;
+        }
+        * {
+            font-size: 20px;
+        }
+        .footer-menu1 ul.groupItem li a b, .footer-menu1 ul.groupItem li ul li a, .menu-top-mobile ul li a, .tag-txt-FB, .baiviet-ngay, .nguontin {
+            font-size: 18px;
+        }
+        .boxGrey-bg .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 8px -1048px no-repeat;
+        }
+        .pollContent .pollAnswer {
+            width: 170px !important;
+            padding-right: 10px;
+        }
+        .pollContent .textbox {
+            width: 100% !important;
+        }
+        .pollContainer {
+            border: 0;
+        }
+        .pollContainer {
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    @media only screen and (min-width: 480px) and (max-width: 567px) {
+        .baiviet-title {
+            font-size: 30px;
+        }
+        .redTitle h2, .redTitle h3, .redTitle h1, .redTitle a, .redTitle, .redTitle-noLine h2, .redTitle-noLine h3, .redTitle-noLine h1, .redTitle-noLine a, .blackTitle h2, .blackTitle h3, .blackTitle h1, .blackTitle a {
+            font-size: 24px;
+        }
+        .bkNewsTitle {
+            font-size: 22px;
+        }
+        .news-title a, .news-title-red a, .vChonLoc-title a, .top-page a, .bkNews-tt-title, .baiviet-sapo, .text-conent, .text-conent *, .news-title-red-B a {
+            font-size: 20px;
+        }
+        .boxDoi-moreNews ul li a, ul.boxDon-moreNews li a, .videoListItem a.title, .thethaoRight .news-title a, .fl-Right a, .listNews ul li a, .news-title-s, 
+        .news-title-red-B a, .baiviet-bailienquan a, .pollTop, .pollAnswer *, .bkNewsSubItem-bottom.mobileSingleLink .news-title a {
+            font-size: 18px;
+        }
+        * {
+            font-size: 18px;
+        }
+        .footer-menu1 ul.groupItem li a b, .footer-menu1 ul.groupItem li ul li a, .menu-top-mobile ul li a, .tag-txt-FB, .baiviet-ngay, .nguontin {
+            font-size: 16px;
+        }
+        .boxGrey-bg .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 8px -1050px no-repeat;
+        }
+        .pollContent .pollAnswer {
+            width: 170px !important;
+            padding-right: 10px;
+        }
+        .pollContent .textbox {
+            width: 100% !important;
+        }
+        .pollContainer {
+            border: 0;
+        }
+    }
+    @media only screen and (min-width: 321px) and (max-width: 479px) {
+        .baiviet-title {
+            font-size: 28px;
+        }
+        .redTitle h2, .redTitle h3, .redTitle h1, .redTitle a, .redTitle, .redTitle-noLine h2, .redTitle-noLine h3, .redTitle-noLine h1, .redTitle-noLine a, .blackTitle h2, .blackTitle h3, .blackTitle h1, .blackTitle a {
+            font-size: 22px;
+        }
+        .bkNewsTitle {
+            font-size: 20px;
+        }
+        .news-title a, .news-title-red a, .vChonLoc-title a, .top-page a, .bkNews-tt-title, .baiviet-sapo, .text-conent, .text-conent *, .news-title-red-B a {
+            font-size: 18px;
+        }
+        .boxDoi-moreNews ul li a, ul.boxDon-moreNews li a, .videoListItem a.title, .thethaoRight .news-title a, .fl-Right a, .listNews ul li a, 
+        .news-title-s, .news-title-red-B a, .baiviet-bailienquan a, .pollTop, .pollAnswer *, .bkNewsSubItem-bottom.mobileSingleLink .news-title a {
+            font-size: 16px;
+        }
+        * {
+            font-size: 16px;
+        }
+        .footer-menu1 ul.groupItem li a b, .footer-menu1 ul.groupItem li ul li a, .menu-top-mobile ul li a, .tag-txt-FB, .baiviet-ngay, .nguontin {
+            font-size: 14px;
+        }
+        .boxGrey-bg .lst-normal {
+            background: url(http://khampha.vn/images/2014/sprites.png) 8px -1052px no-repeat;
+        }
+        .pollContent .pollAnswer {
+            width: 150px !important;
+            padding-right: 10px;
+        }
+        .pollContent .textbox {
+            width: 100% !important;
+        }
+        .pollContainer {
+            border: 0;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .bkNewsTitle {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .news-sapo {
+            line-height: 20px;
+        }
+        .news-title a, .news-title-red a {
+            font-size: 16px;
+        }
+        .boxDoi-moreNews ul li a, ul.boxDon-moreNews li a {
+            font-size: 14px;
+        }
+        .footer-menu2 a {
+            margin: 0px 5px;
+        }
+        .thethaoRight .news-title a {
+            font-size: 14px;
+        }
+        .pollContent .pollAnswer {
+            width: 100px !important;
+            padding-right: 10px;
+        }
+        .pollContent .textbox {
+            width: 100% !important;
+        }
+        .pollContainer {
+            border: 0;
+        }
+    }
+
+    /*Begin 29-03-2019 trungcq code_trang_tuong_thuat */
+    .atn .diem td{
+     padding: 9px 15px;
+ }
+ .db{
+     padding-bottom: 10px;
+ }
+ .liveCnt .abd.atn .dbCont .new1{
+     top: 45px;
+ }
+ .liveCnt .abd.atn .dbCont .new1.colorRed{
+     background-color: #ff0000;
+     top: 8px;
+ }
+ .atn .diem .head td{
+     padding: 0;
+     height: 38px;
+ }
+ .atn .diem .head td.colorGreen{
+     color: #378b36;
+ }
+ .atn .diem td.bgGreen{
+     background-color: #378b36;
+ }
+ .atn .diem .namePlayer{
+     text-align: left;
+ }
+ .atn .diem sup{
+     font-weight: normal;
+ }
+ .tabTThuat{
+     border-top: 2px solid #378b36;
+     height: 43px;
+     line-height: 44px;
+     border-bottom: 1px solid #eeeeee;
+     position: relative;
+     width: 687px;
+     background-color: #fff;
+     padding-top: 8px;
+     box-sizing: border-box;
+ }
+ .tabTThuat .sf{
+     font-size: 17px;
+     color: #378b36;
+     font-weight: bold;
+     background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/pc/images/icoUp.png) no-repeat center right;
+     padding-right: 18px;
+     cursor: pointer;
+ }
+ .popupTH{
+     position: absolute;
+     top: 44px;
+     background-color: #fff;
+     z-index: 1;
+     border: 1px solid #eeeeee;
+     border-top: 0;
+ }
+ .popupTH > .fl{
+     height: 205px;
+     overflow: hidden;
+     overflow-y: scroll;
+ }
+ .popupTH .choise{
+     font-size: 15px;
+     font-weight: bold;
+     height: 40px;
+     line-height: 42px;
+     border-bottom: 1px solid #eeeeee;
+     color: #252525;
+     margin-left: 20px;
+     margin-right: 20px;
+     text-align: left;
+ }
+ .popupTH .choise span{
+     font-size: 15px;
+ }
+ .popupClose span:hover{
+     color: #ff0000;
+ }
+ .popupTime{
+     font-size: 15px;
+     font-weight: bold;
+     margin-right: 10px;
+     background-color: #362960;
+     width: 33px;
+     text-align: center;
+     color: #fff;
+     display: inline-block;
+     padding: 2px 10px;
+     border-radius: 4px;
+     line-height: 25px;
+ }
+ .popupClose{
+     height: 40px;
+     line-height: 42px;
+     font-size: 13px;
+     text-align: center;
+     color: #7d7d7d;
+     clear: both;
+     padding-top: 10px;
+    box-sizing: border-box;
+ }
+ .popupClose span{
+     display: inline-block;
+     background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/pc/images/icoCloseTT.png) no-repeat center left;
+     padding-left: 15px;
+     cursor: pointer;
+ }
+ .popupFilter .position-sorting{
+     border: 0;
+     font-size: 15px;
+     outline: none;
+     background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/pc/images/icoDown.png) no-repeat center right;
+     padding-right: 18px;
+     cursor: pointer;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     -o-appearance: none;
+     display: inline;
+ }
+ .popupFilter .position-sorting option{
+     font-size: 15px;
+ }
+ .fixed-ttnb {
+     position: fixed;
+     top: 0;
+     /*height: 60px;*/
+     z-index: 1;
+ }
+ .popupTH > .fl::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ .popupTH > .fl::-webkit-scrollbar
+ {
+     width: 5px;
+     background-color: #F5F5F5;
+ }
+ .popupTH > .fl::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #7C7C7C;
+ }
+
+ /*tennis_danh_doi*/
+ .tnDd .db{
+     padding-bottom: 10px;
+ }
+ .liveCnt .abd.tnDd .dbCont .new1{
+     top: 45px;
+ }
+ .liveCnt .abd.tnDd .dbCont .new1.colorRed{
+     background-color: #ff0000;
+     top: 8px;
+ }
+ .tnDd .diem .head td{
+     padding: 0;
+ }
+ .tnDd .diem .head td.colorGreen{
+     color: #378b36;
+ }
+ .tnDd .diem td.bgGreen{
+     background-color: #378b36;
+ }
+ .tnDd .diem .namePlayer{
+     text-align: left;
+ }
+ .tnDd .diem sup{
+     font-weight: normal;
+ }
+ .tnDd .diem .team{
+     text-align: center;
+     background-color: #403563;
+     color: #fff;
+     width: 696px;
+ }
+ .tnDd .diem .team img{
+     margin: 10px;
+ }
+ .tnDd .diem .team span:last-child img{
+     margin-left: 0;
+ }
+ .tnDd .diem .team .vs{
+     padding-top: 70px;
+     display: inline-block;
+     font-size: 17px;
+     color: #fff; 
+ }
+ .tnDd .diem table, .tnDd .diem .row2{
+     width: 495px!important;
+ }
+ .atn.tnDd .diem .row2 a{
+     width: 210px;
+ }
+ .atn.tnDd .diem .row2 a.kq{
+     width: 212px;
+ }
+ .fr{
+    float: right;
+}
+.atn .diem .row2 .tttab:nth-child(3){
+    border-right: 1px solid #ddd;
+    width: 143.92px;
+}
+
+/**/
+.tbErIfD .head *{
+    text-align: center;
+    color: #fff;
+}
+.mgbt20{
+    margin-bottom: 20px;
+}
+.abd .livetit{
+    width: 328px;
+    text-align: left;
+}
+
+/*Đội hình xuất phát (bóng đá)*/
+.doihinhCustom{
+    margin-bottom: 20px;
+}
+.doihinhCustom .tit{
+    background-image: url('http://t.24h.com.vn/upload/dangtq/24h.com.vn/pc/images/logo_dhxp.png');
+}
+.itemDoihinhCustom{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 22px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.imgDoihinhCustom{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 0;
+    display: inline-block;
+    width: 85px;
+}
+.text-conent .imgDoihinhCustom img.news-image{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+.txtDoihinhCustom{
+    padding-left: 85px;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+}
+
+/* Tab đội hình (bóng đá) */
+.btnStep{
+    background-color: #362960;
+    top: 45px;
+    width: 33px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    line-height: 25px;
+    position: absolute;
+    left: 0;
+}
+.btnStep.colorRed{
+    background-color: #ff0000;
+    top: 8px;
+}
+.colorWhite{
+    color: #fff;
+}
+.adh .head .fl{
+    width: 45%;
+    text-align: right;
+    margin: 0;
+}
+.adh .head .fr{
+    width: 45%;
+    text-align: left;
+    margin: 0;
+}
+.adh .list1 > div{
+    padding-top: 15px;
+}
+.adh .vs{
+    padding-top: 25px;
+}
+.adh .colL .soAo{
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+    margin-left: 10px;
+}
+.adh .colR .soAo{
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    margin-right: 10px;
+}
+.duBiTit{
+    font-size: 15px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Tab thống kê (bóng đá) */
+.atk .head img{
+    vertical-align: middle;
+}
+.atk .head span{
+    font-size: 15px;
+    color: initial;
+}
+.atk .head{
+    display: inline-block;
+    width: 100%;
+}
+.atk span{
+    font-size: 15px;
+}
+.atk .name{
+    font-weight: bold;
+}
+.atk .c1{
+    display: inline-block;
+    background-color: #39618a;
+    width: 49%;
+    height: 5px;
+}
+.atk .c2{
+    display: inline-block;
+    background-color: #77a2c6;
+    width: 50%;
+    height: 5px;
+}
+.atk{
+    width: 80%;
+    margin: 30px auto;
+}
+/*End 14-03-2019 trungcq code_trang_tuong_thuat */
+
+/*Begin tổng hợp các độ phân giải màn hình - dangtq 2019*/
+@media screen and (max-width: 767px) {
+    .tnDd .diem .team{
+        padding-top: 5px;
+    }
+    .tnDd .diem .team .fl, .tnDd .diem .team .fr{
+        width: 45%;
+    }
+    .atn .diem .news-image{
+        max-width: 45%;
+        height: auto!important;
+        margin: 0!important;
+    }
+    .tnDd .diem .team .vs{
+        padding-top: 30px;
+    }
+    .tnDd .diem table, .tnDd .diem .row2, .tnDd .diem .team{
+        width: 100%!important;
+    }
+    .atn .diem .row2 .tttab{
+        padding: 10px 4px;
+    }
+    .atn .diem .row2 .tttab:nth-child(1){
+        width: 29%;
+    }
+    .atn .diem .row2 .tttab:nth-child(2){
+        width: 48%;
+    }
+    .atn .diem .row2 .tttab:nth-child(3){
+        width: 23%;
+    }
+    .abd.atn .new1{
+        box-sizing: content-box;
+    }
+    .abd .inner {
+        padding-left: 95px; /* Toi uu giao dien cac loai bai tuong thuat - dangtq 23/4/2019 */ 
+    }
+    .atn .att .livetit{
+        padding-top: 3px;
+        width: 61%;
+        text-align: left;
+    }
+    .popupTH .choise{
+        margin-left: 10px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    .popupTime{
+        width: 59px;
+        height: 26px;
+        line-height: 26px;
+        padding: 0;
+    }
+    .popupTH{
+        top: 41px;
+    }
+
+    /*Tường thuật bóng đá*/
+    .btnStep{
+        width: auto;
+    }
+    .abd .livetit{
+        width: 61%;
+    }
+    .list1 p{
+        position: relative;
+    }
+    .adh .colL strong{
+        padding-right: 34px;
+        display: block;
+    }
+    .adh .colL .soAo{
+        width: 24px;
+        text-align: center;
+        font-size: 14px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -9px;
+    }
+    .adh .colR strong{
+        padding-left: 34px;
+        display: block;
+    }
+    .adh .colR .soAo{
+        width: 24px;
+        text-align: center;
+        font-size: 14px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -9px;
+    }
+    .atk .head img{
+        width: 33px;
+        height: 33px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .abd .livetit{
+        width: 69%;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .abd .livetit{
+        width: 67%;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .abd .livetit{
+        width: 72%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+    .abd .livetit{
+        width: 81%;
+    }
+}
+@media screen and (min-width: 569px) and (max-width: 667px) {
+    .abd .livetit{
+        width: 84%;
+    }
+}
+@media screen and (min-width: 569px) and (max-width: 640px) {
+    .abd .livetit{
+        width: 83%;
+    }
+}
+@media screen and (min-width: 668px) and (max-width: 736px) {
+    .abd .livetit{
+        width: 86%;
+    }
+}
+/*End tổng hợp các độ phân giải màn hình - dangtq 2019*/
