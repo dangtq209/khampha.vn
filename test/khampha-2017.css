@@ -2382,7 +2382,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
   display: inline-block;
   font-size: 20px;
   color: #fff;
-  background-color: #f07691;
+  background-color: #f34125;
   padding: 5px 10px;
   margin: 0 0 57px 0;
   cursor: pointer;
@@ -2396,7 +2396,8 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: url(//test.eva.vn/images/responsive/bgQuizzTit_quiz5.png) no-repeat;
+  /* background: url(//test.eva.vn/images/responsive/bgQuizzTit_quiz5.png) no-repeat; */
+  background-color: #f34125;
   background-size: 100% 100%;
   font-size: 22px;
   color: #fff;
@@ -2470,7 +2471,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 
 .quizz5 .listAnswer .item.active,
 .quizz5 .listAnswer .item:hover {
-  background-color: #f3d1db;
+  background-color: #f341258c;
   box-shadow: 0px 2px 5px #999;
   -webkit-box-shadow: 0px 2px 5px #999;
   -moz-box-shadow: 0px 2px 5px #999;
@@ -2513,7 +2514,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 
 .quizz5 .listImg .item.active .name,
 .quizz5 .listImg .item:hover .name {
-  color: #ef5477;
+  color: #f34125;
 }
 
 .quizz5 .listImg.listImg2 {
